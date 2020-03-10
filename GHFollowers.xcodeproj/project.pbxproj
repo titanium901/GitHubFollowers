@@ -27,6 +27,7 @@
 		CAAE96C3240D83F600E263A6 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C2240D83F600E263A6 /* ErrorMessage.swift */; };
 		CAAE96C524101EE800E263A6 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */; };
 		CAAE96C824101F2700E263A6 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C724101F2700E263A6 /* FollowerCell.swift */; };
+		CAAE96CA2411742700E263A6 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C92411742700E263A6 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		CAAE96C2240D83F600E263A6 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		CAAE96C724101F2700E263A6 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		CAAE96C92411742700E263A6 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				CAAE96C2240D83F600E263A6 /* ErrorMessage.swift */,
+				CAAE96C92411742700E263A6 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				CAAE96AE23F1C6C000E263A6 /* GFTitleLabel.swift in Sources */,
 				CAAE96AC23F057CF00E263A6 /* String+Ext.swift in Sources */,
 				CAAE96C3240D83F600E263A6 /* ErrorMessage.swift in Sources */,
+				CAAE96CA2411742700E263A6 /* UIHelper.swift in Sources */,
 				CAAE96C023F31EE700E263A6 /* NetworkManager.swift in Sources */,
 				CA3592CE23EB2E0F00EC4768 /* SceneDelegate.swift in Sources */,
 				CAAE96B023F1C80A00E263A6 /* GFBodyLabel.swift in Sources */,
