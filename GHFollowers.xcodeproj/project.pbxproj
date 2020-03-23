@@ -28,6 +28,7 @@
 		CAAE96C524101EE800E263A6 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */; };
 		CAAE96C824101F2700E263A6 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C724101F2700E263A6 /* FollowerCell.swift */; };
 		CAAE96CA2411742700E263A6 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96C92411742700E263A6 /* UIHelper.swift */; };
+		CAAE96CC24290D0B00E263A6 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE96CB24290D0B00E263A6 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		CAAE96C724101F2700E263A6 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		CAAE96C92411742700E263A6 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		CAAE96CB24290D0B00E263A6 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				CAAE96C624101F0700E263A6 /* Cells */,
-				CAAE96B123F1C8AB00E263A6 /* GFAlertVC.swift */,
-				CA3592E323EC7E8E00EC4768 /* GFButton.swift */,
-				CA3592E523EC817B00EC4768 /* GFTextField.swift */,
-				CAAE96AD23F1C6C000E263A6 /* GFTitleLabel.swift */,
-				CAAE96AF23F1C80A00E263A6 /* GFBodyLabel.swift */,
-				CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */,
+				CAAE96CE24290D3D00E263A6 /* ViewControllers */,
+				CAAE96D024290D6700E263A6 /* Buttons */,
+				CAAE96D124290D7C00E263A6 /* TextFields */,
+				CAAE96CD24290D2E00E263A6 /* Labels */,
+				CAAE96CF24290D5000E263A6 /* ImageView */,
+				CAAE96D224290D8D00E263A6 /* Views */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -174,6 +176,55 @@
 				CAAE96C724101F2700E263A6 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		CAAE96CD24290D2E00E263A6 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE96AD23F1C6C000E263A6 /* GFTitleLabel.swift */,
+				CAAE96AF23F1C80A00E263A6 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		CAAE96CE24290D3D00E263A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE96B123F1C8AB00E263A6 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CAAE96CF24290D5000E263A6 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE96C424101EE800E263A6 /* GFAvatarImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		CAAE96D024290D6700E263A6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CA3592E323EC7E8E00EC4768 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CAAE96D124290D7C00E263A6 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CA3592E523EC817B00EC4768 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CAAE96D224290D8D00E263A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE96CB24290D0B00E263A6 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +302,7 @@
 				CA3592E223EC7B8A00EC4768 /* FavoritesListVC.swift in Sources */,
 				CA3592E423EC7E8E00EC4768 /* GFButton.swift in Sources */,
 				CA3592E023EC7B5300EC4768 /* SearchVC.swift in Sources */,
+				CAAE96CC24290D0B00E263A6 /* GFEmptyStateView.swift in Sources */,
 				CAAE96C524101EE800E263A6 /* GFAvatarImageView.swift in Sources */,
 				CAAE96AA23F0546100E263A6 /* FollowerListVC.swift in Sources */,
 				CAAE96BD23F3198D00E263A6 /* User.swift in Sources */,
