@@ -18,7 +18,7 @@ class UserInfoVC: UIViewController {
     let headerView  = UIView()
     let itemViewOne = UIView()
     let itemViewTwo = UIView()
-    let dateLabel           = GFBodyLabel(textAlignment: .center)
+    let dateLabel   = GFBodyLabel(textAlignment: .center, fontSize: 14)
     var itemViews: [UIView] = []
     
     var username: String!
